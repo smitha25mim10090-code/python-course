@@ -1,0 +1,20 @@
+python basic commands
+
+Below command is to initialize new folder to github
+>git init  
+
+Below commands are used to move files from staging to commit
+>git add* - to copy all files by default in folder to staging
+git status - to know what files are in staging
+git commit - m "commit message" 
+
+Below two commands are to know address of the repository to upload files
+
+>git branch -M main
+git remote add origin https://github.com/smitha25mim10090-code/python-course.git - to know the branch name to commit files. 
+
+Below command to push files from commit to above repository
+git push -u origin main
+
+to delete any file git rm 'file name'
+git rebase main
